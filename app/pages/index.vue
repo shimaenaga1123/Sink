@@ -1,6 +1,7 @@
 <script>
+import from "../layout/empty";
 export default {
-  layout: "empty"
+  layout: empty
 };
 </script>
 
