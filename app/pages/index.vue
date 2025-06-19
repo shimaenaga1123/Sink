@@ -5,5 +5,13 @@
 </template>
 
 <script setup>
-window.location.href = 'https://shimaenaga.dev';
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  window.location.href = 'https://shimaenaga.dev';
+});
+  
+export default {
+  layout: "empty"
+};
 </script>
