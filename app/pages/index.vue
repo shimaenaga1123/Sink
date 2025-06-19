@@ -5,8 +5,5 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue';
-onMounted(() => {
-  window.location.href = 'https://shimaenaga.dev';
-});
+window.location.href = 'https://shimaenaga.dev';
 </script>
