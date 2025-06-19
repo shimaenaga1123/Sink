@@ -1,5 +1,5 @@
 <script>
-import from "../layout/empty";
+import from "../layouts/empty";
 export default {
   layout: empty
 };
